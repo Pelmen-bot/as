@@ -1,0 +1,42 @@
+body {
+    animation: rainbow 4s infinite;
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 20px; /* Размер основного шрифта в <p></p>  */
+    background-color: #ffffff; /* Цвет фона веб-страницы */
+    color: #000000; /* Цвет основного текста */ 
+}
+
+
+
+h1 {
+    
+    color: #00a800; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+@keyframes rainbow {
+
+    0% {color: #000000}
+
+    50% {color: red;}
+
+    100% {color: #000000;}
+
+
+}
+img:hover {
+    animation: img-size 4s infinite;
+}
+@keyframes img-size {
+
+
+    0%{ width: 300px;}
+
+    50% {width: 800px;}
+
+    100% {width: 300px;}
+
+
+
+
+}
